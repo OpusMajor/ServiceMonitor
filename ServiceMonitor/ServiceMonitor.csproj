@@ -12,12 +12,11 @@
         <PackageReference Include="LibProcess2" Version="1.1.0-beta.1" />
         <PackageReference Include="Microsoft.Extensions.FileSystemGlobbing" Version="6.0.0" />
         <PackageReference Include="Microsoft.Extensions.Hosting" Version="6.0.1" />
+        <PackageReference Include="OpusMajor.FileSystem" Version="0.1.0-beta.1" />
         <PackageReference Include="Serilog.Extensions.Hosting" Version="5.0.1" />
         <PackageReference Include="Serilog.Sinks.Console" Version="4.0.1" />
         <PackageReference Include="Serilog.Sinks.File" Version="5.0.0" />
+        <PackageReference Include="OpusMajor.FileSystem" Version="0.1.0-beta.2" />
     </ItemGroup>
 
-    <ItemGroup>
-      <ProjectReference Include="..\OpusMajor.FileSystem\OpusMajor.FileSystem.csproj" />
-    </ItemGroup>
 </Project>
